@@ -14,11 +14,10 @@ refs.stopBtn.addEventListener('click', onStopBtnClick);
 let intervalId = null;
 
 function onStartBtnClick() {
+  refs.startBtn.disabled = true;
+  refs.stopBtn.disabled = false;
   intervalId = setInterval(() => {
     refs.bodyEl.style.backgroundColor = getRandomHexColor();
-    refs.startBtn.disabled = true;
-    refs.stopBtn.disabled = false;
-    isActive = true;
   }, 1000);
 }
 
