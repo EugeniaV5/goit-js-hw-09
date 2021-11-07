@@ -1,0 +1,2 @@
+.input-wrapper{max-width:340px;display:flex;justify-content:space-evenly}input{padding:10px;width:40pxß;border:1px solid #83cac6;background-color:none}input:focus,input:hover{background-color:#83cac6}button{width:70px;cursor:pointer;padding:10px;border:1px solid #83cac6;border-radius:2px}button:focus,button:hover{background-color:#3d4457;color:#fff}.timer{display:flex}.field:not(:last-child){margin-right:30px}.value{display:block;font-size:48px}
+/*# sourceMappingURL=/goit-js-hw-09/timer.0bdea23c.css.map */
